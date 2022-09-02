@@ -4,6 +4,14 @@
 <h2>
   Nome: <u>{{ name }}</u>
 </h2>
+
 <h3>
-  Idade: <u>{{ 2022 - nascimento }}</u> anos.
+  Idade: <u>{{ 2022 - nascimento }} anos.</u>
 </h3>
+
+<h3>
+  Idade: <u>{{ getIdade() }} anos.</u>
+</h3>
+<hr />
+<h2>Contador: {{ counter }}s</h2>
+<h3>{{ getMinutos() }} ' {{ getSegundos() }}''</h3>
