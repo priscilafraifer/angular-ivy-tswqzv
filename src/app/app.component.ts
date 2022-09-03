@@ -24,4 +24,7 @@ return Math.trunc(this.counter / 60);
   getSegundos(){
     return Math.trunc(this.counter % 60);
   }
+  getNumbers(){
+    return [25,3,7,13,19,35,26,42];
+  }
 }
